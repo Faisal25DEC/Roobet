@@ -7,7 +7,7 @@ const TopCards = () => {
       {/* First main div */}
       <div className="relative h-[160px] card">
         <div className="absolute w-full h-full card-1">
-          <h1 className="text-shadow text-white text-[40px] font-[600] absolute bottom-2 left-8">
+          <h1 className="text-shadow text-white text-[30px] font-[600] absolute bottom-2 left-8">
             Slotlar
           </h1>
         </div>
@@ -19,7 +19,7 @@ const TopCards = () => {
       {/* Second main div */}
       <div className="relative h-[160px] card">
         <div className="absolute w-full h-full card-5">
-          <h1 className="text-white text-[40px] font-[600] absolute bottom-2 left-8 text-shadow">
+          <h1 className="text-white text-[30px] font-[600] absolute bottom-2 left-8 text-shadow">
             Cakilma Oyunlari
           </h1>
         </div>
@@ -31,7 +31,7 @@ const TopCards = () => {
       {/* Third main div */}
       <div className="relative h-[160px] card">
         <div className="absolute w-full h-full card-9">
-          <h1 className="text-white text-[40px] font-[600] absolute bottom-2 left-8 text-shadow">
+          <h1 className="text-white text-[30px] font-[600] absolute bottom-2 left-8 text-shadow">
             Spor Bahisleri
           </h1>
         </div>
@@ -43,7 +43,7 @@ const TopCards = () => {
       {/* Fourth main div */}
       <div className="relative h-[160px] card">
         <div className="absolute w-full h-full card-13">
-          <h1 className="text-white text-[40px] font-[600] absolute bottom-2 left-8 text-shadow">
+          <h1 className="text-white text-[30px] font-[600] absolute bottom-2 left-8 text-shadow">
             Canli Casino
           </h1>
         </div>
