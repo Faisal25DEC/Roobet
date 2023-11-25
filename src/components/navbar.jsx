@@ -7,18 +7,20 @@ import MobileLogo from "../assets/mobileLogo.png";
 const Navbar = () => {
   return (
     <div className="z-[99999] bg-[#302a58] bg-opacity-95 w-full fixed h-14 md:h-24 border-b-[1px] border-b-[#373078]">
-      <div className="hidden lg:flex w-full h-8 text-center bg-[#584cc5]  text-white  items-center justify-between px-60 ">
-        <div className="flex items-center gap-2 font-semibold">
-          <p>Promosyonlar</p>
-          <p>Harberler</p>
-        </div>
-        <div className="flex items-center gap-5 font-semibold">
-          <p>3,906,758,485 </p>
-          <p>Oynanan Bahisler</p>
-          <p className="flex items-center justify-center ">
-            <FaGlobe />
-            <RiArrowDropDownLine className="text-[34px]" />
-          </p>
+      <div className="bg-[#3f3a75] w-full">
+        <div className="hidden lg:flex w-[77%] m-auto h-8 text-center   text-white  items-center justify-between ">
+          <div className="flex items-center gap-2 font-[400] text-[15px]">
+            <p>Promosyonlar</p>
+            <p>Harberler</p>
+          </div>
+          <div className="flex items-center gap-5 font-[400] text-[15px]">
+            <p>3,906,758,485 </p>
+            <p>Oynanan Bahisler</p>
+            <p className="flex items-center justify-center ">
+              <FaGlobe />
+              <RiArrowDropDownLine className="text-[34px]" />
+            </p>
+          </div>
         </div>
       </div>
 
