@@ -20,13 +20,13 @@ function App() {
       <div className="top-bg bg-image w-[100%] m-auto ">
         <Navbar />
 
-        <div className=" relative pt-[15vh] h-[fit-content]  w-[97%] lg:w-[75%] m-auto ">
+        <div className=" relative pt-[15vh] h-[fit-content]  w-[97%] lg:w-[77.5%] m-auto ">
           <TopBanner />
           <TopCards />
         </div>
       </div>
       <div className="relative mid-bg">
-        <div className="  w-[97%] lg:w-[75%] m-auto">
+        <div className="  w-[97%] lg:w-[77.5%] m-auto">
           <SwiperCards
             heading={"Popüler Oyunlar"}
             subHeading={"Hepsini Göster"}
@@ -65,7 +65,7 @@ function App() {
             last={true}
           />
         </div>
-        <div className="py-8  w-[97%] lg:w-[75%] m-auto">
+        <div className="py-8  w-[97%] lg:w-[77.5%] m-auto">
           <Table />
         </div>
       </div>

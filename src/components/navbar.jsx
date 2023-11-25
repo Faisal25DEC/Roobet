@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center justify-center md:py-0 py-2">
-        <div className="w-[90%] lg:w-[74%] m-auto flex items-center justify-between">
+        <div className="w-[90%] lg:w-[77%] m-auto flex items-center justify-between">
           <div>
             <img src={Logo} alt="" className="h-14 hidden md:block" />
             <img
