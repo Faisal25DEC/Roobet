@@ -9,11 +9,11 @@ const Navbar = () => {
     <div className="z-[99999] bg-[#302a58] bg-opacity-95 w-full fixed h-14 md:h-24 border-b-[1px] border-b-[#373078]">
       <div className="bg-[#3f3a75] w-full">
         <div className="hidden lg:flex w-[77%] m-auto h-8 text-center   text-white  items-center justify-between ">
-          <div className="flex items-center gap-2 font-[400] text-[15px]">
+          <div className="flex items-center gap-2 font-[400] text-[0.8125rem]">
             <p>Promosyonlar</p>
             <p>Harberler</p>
           </div>
-          <div className="flex items-center gap-5 font-[400] text-[15px]">
+          <div className="flex items-center gap-5 font-[400] text-[0.8125rem]">
             <p>3,906,758,485 </p>
             <p>Oynanan Bahisler</p>
             <p className="flex items-center justify-center ">
