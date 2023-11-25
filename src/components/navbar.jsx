@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo-bg-rm.png";
+import Logo from "../assets/logo.webp";
 import { FaArrowDown, FaGlobe, FaSearch } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import MobileLogo from "../assets/mobileLogo.png";
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="flex items-center justify-center md:py-0 py-2">
         <div className="w-[90%] lg:w-[70%] m-auto flex items-center justify-between">
           <div>
-            <img src={Logo} alt="" className="hidden md:block" />
+            <img src={Logo} alt="" className="h-16 hidden md:block" />
             <img
               src={MobileLogo}
               alt=""
