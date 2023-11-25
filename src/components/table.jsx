@@ -11,7 +11,7 @@ const Table = () => {
 
   useEffect(() => {
     let id = setInterval(() => {
-      const randomArrays = Array.from({ length: 10 }, generateRandomArray);
+      const randomArrays = Array.from({ length: 13 }, generateRandomArray);
       randomArrays.unshift([
         "OYUN",
         "KULLANICI",
@@ -29,13 +29,15 @@ const Table = () => {
   }, []);
 
   return (
-    <div className={`rounded-2xl flex flex-col text-white overflow-hidden`}>
+    <div className={`rounded-xl flex flex-col text-white overflow-hidden`}>
       {data.map((item, index) => {
         return (
           <div
             className={`px-4 py-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 ${
               index !== 0 && "text-sm"
-            } ${index % 2 === 0 ? "bg-[#5a16a9]" : "bg-[#5b16a926]"}`}
+            } ${index % 2 === 0 ? "bg-[#3c396f]" : "bg-[#2d2954]"} ${
+              index === 0 && "bg-[#3b3678]"
+            }`}
           >
             <div>
               <p className={`${index === 0 && "font-bold"} `}>{item[0]}</p>
@@ -53,9 +55,9 @@ const Table = () => {
             </div>
             <div className="hidden lg:block">
               <p
-                className={`${index === 0 && "font-bold"} ${
-                  index === 0 && "ml-[1rem]"
-                } ${index !== 0 && "text-gray-400"}`}
+                className={`${index === 0 && "font-bold"} 
+                
+                 ${index !== 0 && "text-gray-400"}`}
               >
                 {item[2] === "" ? getCurrentTimeAMPM() : item[2]}
               </p>
@@ -83,7 +85,7 @@ const Table = () => {
             </div>
             <div className="flex gap-1">
               <p
-                className={` ${index === 0 && "font-bold"} ${
+                className={` ml-auto ${index === 0 && "font-bold"} ${
                   index === 0 && "ml-[1rem]"
                 }`}
               >

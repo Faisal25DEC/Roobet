@@ -16,16 +16,16 @@ import Table from "./components/table";
 function App() {
   return (
     <>
-      <div className="bg-image w-[100%] m-auto  bg-[url('/src/assets/bg1.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="top-bg bg-image w-[100%] m-auto ">
         <Navbar />
 
-        <div className="pt-[15vh] h-[fit-content]  w-[97%] lg:w-[70%] m-auto top-[8rem]">
+        <div className="pt-[15vh] h-[fit-content]  w-[97%] lg:w-[75%] m-auto top-[8rem]">
           <TopBanner />
           <TopCards />
         </div>
       </div>
       <div className="mid-bg">
-        <div className="  w-[97%] lg:w-[70%] m-auto">
+        <div className="  w-[97%] lg:w-[75%] m-auto">
           <SwiperCards
             heading={"Popüler Oyunlar"}
             subHeading={"Hepsini Göster"}
@@ -64,7 +64,7 @@ function App() {
             last={true}
           />
         </div>
-        <div className="py-8  w-[97%] lg:w-[70%] m-auto">
+        <div className="py-8  w-[97%] lg:w-[75%] m-auto">
           <Table />
         </div>
       </div>

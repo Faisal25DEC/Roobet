@@ -105,9 +105,9 @@ const Footer = () => {
   ];
   return (
     <>
-      <div className="py-6 px-6 w-full text-white lg:w-[70%] m-auto">
+      <div className="py-6 px-6 w-full text-white lg:w-[75%] m-auto">
         <hr className="border-[1px] border-[#2d2d4f]" />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 text-white py-6 gap-8 cursor-pointer">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-white py-6 gap-8 cursor-pointer">
           <div className="flex-2">
             <h1 className="font-semibold">Casino</h1>
             <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
@@ -205,7 +205,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-[70%] m-auto px-6 py-6">
+      <div className="w-full lg:w-[75%] m-auto px-6 pt-12 pb-6">
         <h1 className="text-white font-semibold">Desteklenen Para Birimleri</h1>
         <div className="flex flex-wrap items-center gap-4 py-6">
           {footerBlock.map((item) => {
@@ -233,7 +233,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-white p-6 font-semibold">Lisanslar</h1>
+            <h1 className="text-center text-white p-6 font-semibold">
+              Lisanslar
+            </h1>
             <div className="flex items-center gap-4 flex-wrap justify-center">
               {footerAwardsRight.map((item) => {
                 return (
@@ -250,8 +252,8 @@ const Footer = () => {
           <div className="flex items-center gap-4 flex-wrap  pb-12 pt-6">
             {footerLast.map((item) => {
               return (
-                <div className="w-36 h-28 flex justify-center items-center bg-[#1c1c39] rounded-lg hover:bg-[#2d2d4f] cursor-pointer">
-                  <img src={item.img} alt="" />
+                <div className="p-4 w-[8rem] h-20 flex justify-center items-center bg-[#1c1c39] rounded-lg hover:bg-[#2d2d4f] cursor-pointer">
+                  <img src={item.img} alt="" className="w-full" />
                 </div>
               );
             })}

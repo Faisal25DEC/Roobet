@@ -17,7 +17,7 @@
 .card-1 {
   background: linear-gradient(180deg, #7171e8, #5353e1);
   background-image: url("../assets/card-1.png");
-  background-size: 11rem;
+  background-size: 10rem;
   background-repeat: no-repeat;
   width: 100%;
 
@@ -49,14 +49,15 @@
 .card-3 {
   background-image: url("../assets/card-3.png");
 
-  background-size: 130%;
-  background-position-y: bottom;
+  background-size: 190%;
+  background-position-y: 1rem;
   background-position-x: center;
   width: 100%;
   background-repeat: no-repeat;
   z-index: 1;
   filter: brightness(0.9);
-  filter: blur(0.5px);
+  filter: blur(9);
+  opacity: 0.8;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
 }
@@ -77,17 +78,17 @@
   filter: blur(0px);
   /* background-size: 110%; */
   background-repeat: no-repeat;
-  background-size: 95%;
+  background-size: 100%;
   scale: 0.9;
 }
 .card-1:hover {
-  background-size: 13rem;
+  background-size: 15rem;
 }
 .card-1:hover ~ .card-3 {
   filter: brightness(1);
   scale: 1;
   filter: blur(0px);
-  background-size: 98%;
+  background-size: 180%;
 }
 
 .card-5 {

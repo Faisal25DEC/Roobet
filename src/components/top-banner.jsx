@@ -5,7 +5,7 @@ import TopBannerImage2 from "../assets/top-banner-2.png";
 
 const TopBanner = () => {
   return (
-    <div className="img-shadow h-[60vh]">
+    <div className="img-shadow h-[65vh]">
       <img
         src={TopBannerImage}
         alt=""
@@ -14,7 +14,7 @@ const TopBanner = () => {
       <img
         src={TopBannerImage2}
         alt=""
-        className="w-full h-[15vh] mt-[1rem] object-cover"
+        className="w-full h-[20vh] mt-[1rem] object-cover"
       />
     </div>
   );

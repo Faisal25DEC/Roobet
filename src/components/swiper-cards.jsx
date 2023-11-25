@@ -45,6 +45,7 @@ export default function SwiperCards({
                 <FaArrowLeft
                   color="
 #e6be4b"
+                  className="w-5 h-5"
                 />
               </button>
               <button
@@ -54,11 +55,12 @@ export default function SwiperCards({
                 <FaArrowRight
                   color="
 #e6be4b"
+                  className="w-5 h-5"
                 />
               </button>
             </div>
           </div>
-          <div id={`${heading}`}>
+          <div id={`${heading}`} className="py-4">
             <Swiper
               id={swiperId}
               modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
@@ -92,7 +94,7 @@ export default function SwiperCards({
                   spaceBetween: 10,
                 },
                 1024: {
-                  slidesPerView: 5.5,
+                  slidesPerView: 6.6,
                   slidesPerGroup: 5,
                   delay: 1000,
                   spaceBetween: 50,
@@ -123,11 +125,11 @@ export default function SwiperCards({
               {products.map((product) => {
                 return !last ? (
                   <SwiperSlide>
-                    <div className=" w-[12rem] h-[12rem] bg-transparent  overflow-hidden flex flex-col gap-2">
+                    <div className=" w-[10rem] h-[11rem] bg-transparent  overflow-hidden flex flex-col gap-2">
                       <img
                         src={product.img}
                         alt=""
-                        className="swiper-shadow rounded-lg w-[12rem] h-[10.5rem] object-cover"
+                        className="swiper-shadow rounded-lg w-[10rem] h-[8.5rem] "
                       />
                       <p className="cursor-pointer text-center text-gray-500 text-xs font-medium">
                         {product.text}
@@ -136,7 +138,7 @@ export default function SwiperCards({
                   </SwiperSlide>
                 ) : (
                   <SwiperSlide>
-                    <div className=" w-[11rem] h-[9rem] bg-[#221f41]  overflow-hidden flex flex-col gap-2 items-center justify-center rounded-md swiper-shadow hover:bg-[#141428b1] transition duration-500 cursor-pointer">
+                    <div className="mb-2 w-[9rem] h-[6rem] bg-[#221f41]  overflow-hidden flex items-center justify-center rounded-[1rem] swiper-shadow hover:bg-[#0a0a15b1] transition duration-500 cursor-pointer">
                       <img
                         src={product.img}
                         alt=""
