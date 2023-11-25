@@ -9,7 +9,7 @@ const TopBanner = () => {
       <img
         src={TopBannerImage}
         alt=""
-        className="rounded-xl h-[40vh] object-cover"
+        className="w-full rounded-xl h-[40vh] object-cover"
       />
       <img
         src={TopBannerImage2}

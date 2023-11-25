@@ -3,10 +3,20 @@
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .top-bg {
-  background: linear-gradient(180deg, #111132, #2d2954);
+  background: linear-gradient(180deg, rgba(1, 1, 71, 0.456), #2d2954);
+
+  background-repeat: no-repeat;
+}
+.overlay-bg {
+  background-image: url("./assets/bg2.jpg");
+  filter: brightness(1);
+  filter: opacity(0.95);
+  background-size: 150%;
+  background-position: center;
+  z-index: -1;
 }
 .mid-bg {
-  background-color: #2d2954;
+  background: linear-gradient(180deg, #2d2955, #2d2954);
 }
 
 .footer-bg {

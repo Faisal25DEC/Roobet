@@ -125,11 +125,11 @@ export default function SwiperCards({
               {products.map((product) => {
                 return !last ? (
                   <SwiperSlide>
-                    <div className=" w-[10rem] h-[11rem] bg-transparent  overflow-hidden flex flex-col gap-2">
+                    <div className=" w-[11rem] h-[11rem] bg-transparent  overflow-hidden flex flex-col gap-2">
                       <img
                         src={product.img}
                         alt=""
-                        className="swiper-shadow rounded-lg w-[10rem] h-[8.5rem] "
+                        className="swiper-shadow rounded-lg w-[10.5rem] h-[9.5rem] object-cover"
                       />
                       <p className="cursor-pointer text-center text-gray-500 text-xs font-medium">
                         {product.text}

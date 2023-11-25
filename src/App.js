@@ -16,15 +16,16 @@ import Table from "./components/table";
 function App() {
   return (
     <>
+      <div className="overlay-bg h-[140vh] absolute w-full "></div>
       <div className="top-bg bg-image w-[100%] m-auto ">
         <Navbar />
 
-        <div className="pt-[15vh] h-[fit-content]  w-[97%] lg:w-[75%] m-auto top-[8rem]">
+        <div className=" relative pt-[15vh] h-[fit-content]  w-[97%] lg:w-[75%] m-auto ">
           <TopBanner />
           <TopCards />
         </div>
       </div>
-      <div className="mid-bg">
+      <div className="relative mid-bg">
         <div className="  w-[97%] lg:w-[75%] m-auto">
           <SwiperCards
             heading={"Popüler Oyunlar"}
@@ -69,7 +70,7 @@ function App() {
         </div>
       </div>
 
-      <div className="footer-bg">
+      <div className="relative footer-bg">
         <Footer />
       </div>
     </>
