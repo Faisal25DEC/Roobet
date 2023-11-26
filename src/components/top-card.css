@@ -6,7 +6,7 @@
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 }
 
-.card {
+.top-card {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   overflow: hidden;
@@ -245,11 +245,12 @@
   background-image: url("../assets/card-13.png");
 
   background-repeat: no-repeat;
-  width: 100%;
-  background-size: 30%;
-  right: 0rem;
+  width: 19rem;
+  height: 20rem;
+  background-size: 100%;
+  right: -7rem;
   background-position-x: 100%;
-
+  rotate: -37deg;
   z-index: 2;
   transition: all 0.3s ease-in-out;
   overflow: visible;
@@ -267,6 +268,29 @@
   overflow: hidden;
 }
 
+.card-17 {
+  background-image: url("../assets/card-15.png");
+  z-index: 3;
+  width: 3rem;
+  height: 3rem;
+  right: 7%;
+  bottom: -5%;
+  background-repeat: no-repeat;
+  background-position-x: 88%;
+  background-size: 100%;
+  background-position-y: 110%;
+  rotate: 0;
+}
+@media (max-width: 990px) {
+  .card-17 {
+    background-image: url("../assets/card-15.png");
+    z-index: 3;
+    background-repeat: no-repeat;
+    right: 5%;
+    rotate: 0;
+  }
+}
+
 .card-13:hover {
   background-position-x: 53%;
 }
@@ -277,7 +301,7 @@
   opacity: 0.9;
 }
 .card-13:hover ~ .card-15 {
-  background-size: 33%;
+  rotate: 5deg;
 }
 
 @media (max-width: 990px) {

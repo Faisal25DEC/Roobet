@@ -5,7 +5,7 @@ const TopCards = () => {
   return (
     <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 pb-10">
       {/* First main div */}
-      <div className="relative h-[160px] card border-none">
+      <div className="relative h-[160px] top-card border-none">
         <div className="absolute w-full h-full card-1">
           <h1 className="text-shadow text-white text-[30px] font-[600] absolute bottom-2 left-8">
             Slotlar
@@ -17,7 +17,7 @@ const TopCards = () => {
       </div>
 
       {/* Second main div */}
-      <div className="relative h-[160px] card border-none">
+      <div className="relative h-[160px] top-card border-none">
         <div className="absolute w-full h-full card-5">
           <h1 className="text-white text-[30px] font-[600] absolute bottom-2 left-8 text-shadow">
             Cakilma Oyunlari
@@ -29,7 +29,7 @@ const TopCards = () => {
       </div>
 
       {/* Third main div */}
-      <div className="relative h-[160px] card border-none">
+      <div className="relative h-[160px] top-card border-none">
         <div className="absolute w-full h-full card-9">
           <h1 className="text-white text-[30px] font-[600] absolute bottom-2 left-8 text-shadow">
             Spor Bahisleri
@@ -41,7 +41,7 @@ const TopCards = () => {
       </div>
 
       {/* Fourth main div */}
-      <div className="relative h-[160px] card border-none">
+      <div className="relative h-[160px] top-card border-none">
         <div className="absolute w-full h-full card-13">
           <h1 className="text-white text-[30px] font-[600] absolute bottom-2 left-8 text-shadow">
             Canli Casino
@@ -50,6 +50,7 @@ const TopCards = () => {
         <div className="absolute w-full h-full card-14"></div>
         <div className="absolute w-full h-full card-15"></div>
         <div className="absolute w-full h-full card-16"></div>
+        <div className="absolute w-full h-full card-17"></div>
       </div>
     </div>
   );

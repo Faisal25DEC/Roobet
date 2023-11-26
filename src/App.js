@@ -23,6 +23,71 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 function App() {
+  const headings = [
+    "Casino",
+    "Spor Bahisleri Politikası",
+    "Policies",
+    "Promos",
+    "support",
+    "topluluk",
+  ];
+  const contents = [
+    <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
+      <p className="hover:text-white hover:underline">Roobet Oyunları</p>
+      <p className="hover:text-white hover:underline">Slotlar</p>
+      <p className="hover:text-white hover:underline">Canlı Casino</p>
+      <p className="hover:text-white hover:underline">Popüler Oyunlar</p>
+      <p className="hover:text-white hover:underline">Blackjack</p>
+      <p className="hover:text-white hover:underline">Baccarat</p>
+      <p className="hover:text-white hover:underline">Adillik</p>
+    </div>,
+    <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
+      <p className="hover:text-white hover:underline">ana Sayfa</p>
+      <p className="hover:text-white hover:underline">Canlı</p>
+      <p className="hover:text-white hover:underline">Futbol</p>
+      <p className="hover:text-white hover:underline">Basketbol</p>
+      <p className="hover:text-white hover:underline">Esporlar</p>
+    </div>,
+    <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
+      <p className="hover:text-white hover:underline">Kullanım Şartları</p>
+      <p className="hover:text-white hover:underline">Gizlilik Politikası</p>
+      <p className="hover:text-white hover:underline">
+        Bonus ve PromosyonPolitikası
+      </p>
+      <p className="hover:text-white hover:underline">Spor Bahisleri</p>
+      <p className="hover:text-white hover:underline">Oyun Politikası</p>
+      <p className="hover:text-white hover:underline">KYC-AML-CFT Politikası</p>
+      <p className="hover:text-white hover:underline">Sorumlu Oyunculuk</p>
+    </div>,
+    <div className="text-[#7b6fbc] flex py-2 flex-col gap-1">
+      <p className="hover:text-white hover:underline">VIP Kulübü</p>
+      <p className="hover:text-white hover:underline">Promosyonlar</p>
+      <p className="hover:text-white hover:underline">Promosyonu Kullan</p>
+      <p className="hover:text-white hover:underline">İş Ortaklığı Programı</p>
+    </div>,
+    <div className="text-[#7b6fbc] flex py-2 flex-col gap-1">
+      <p className="hover:text-white hover:underline">Hakkımızda</p>
+      <p className="hover:text-white hover:underline">Canlı Destek</p>
+      <p className="hover:text-white hover:underline">Yardım Merkezi</p>
+      <p className="hover:text-white hover:underline">
+        Roobet Resmi İkiz Siteleri
+      </p>
+      <p className="hover:text-white hover:underline">Roo Sorumluluğu</p>
+      <p className="hover:text-white hover:underline">Güvenlik Açığı İfşası</p>
+    </div>,
+    <div className="flex flex-col gap-6 py-4">
+      <div className="flex items-center gap-4">
+        <FaTwitter className="w-9 h-9 text-[#9595b4]" />
+        <FaFacebook className="w-9 h-9 text-[#9595b4]" />
+        <FaInstagram className="w-9 h-9 text-[#9595b4]" />
+      </div>
+      <div className="flex items-center gap-4">
+        <FaTwitch className="w-9 h-9 text-[#9595b4]" />
+        <FaTelegram className="w-9 h-9 text-[#9595b4]" />
+        <FaSpotify className="w-9 h-9 text-[#9595b4]" />
+      </div>
+    </div>,
+  ];
   return (
     <>
       <div className="overlay-bg h-[140vh] absolute w-full "></div>
@@ -81,117 +146,7 @@ function App() {
 
       <div className="relative footer-bg">
         <div className="footer-bg block md:hidden">
-          <FooterAccordion
-            heading={"Casino"}
-            content={
-              <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
-                <p className="hover:text-white hover:underline">
-                  Roobet Oyunları
-                </p>
-                <p className="hover:text-white hover:underline">Slotlar</p>
-                <p className="hover:text-white hover:underline">Canlı Casino</p>
-                <p className="hover:text-white hover:underline">
-                  Popüler Oyunlar
-                </p>
-                <p className="hover:text-white hover:underline">Blackjack</p>
-                <p className="hover:text-white hover:underline">Baccarat</p>
-                <p className="hover:text-white hover:underline">Adillik</p>
-              </div>
-            }
-          />
-          <FooterAccordion
-            heading={"Spor Bahisleri Politikası"}
-            content={
-              <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
-                <p className="hover:text-white hover:underline">ana Sayfa</p>
-                <p className="hover:text-white hover:underline">Canlı</p>
-                <p className="hover:text-white hover:underline">Futbol</p>
-                <p className="hover:text-white hover:underline">Basketbol</p>
-                <p className="hover:text-white hover:underline">Esporlar</p>
-              </div>
-            }
-          />
-          <FooterAccordion
-            heading={"Policies"}
-            content={
-              <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
-                <p className="hover:text-white hover:underline">
-                  Kullanım Şartları
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Gizlilik Politikası
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Bonus ve PromosyonPolitikası
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Spor Bahisleri
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Oyun Politikası
-                </p>
-                <p className="hover:text-white hover:underline">
-                  KYC-AML-CFT Politikası
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Sorumlu Oyunculuk
-                </p>
-              </div>
-            }
-          />
-          <FooterAccordion
-            heading="Promos"
-            content={
-              <div className="text-[#7b6fbc] flex py-2 flex-col gap-1">
-                <p className="hover:text-white hover:underline">VIP Kulübü</p>
-                <p className="hover:text-white hover:underline">Promosyonlar</p>
-                <p className="hover:text-white hover:underline">
-                  Promosyonu Kullan
-                </p>
-                <p className="hover:text-white hover:underline">
-                  İş Ortaklığı Programı
-                </p>
-              </div>
-            }
-          />
-          <FooterAccordion
-            heading="support"
-            content={
-              <div className="text-[#7b6fbc] flex py-2 flex-col gap-1">
-                <p className="hover:text-white hover:underline">Hakkımızda</p>
-                <p className="hover:text-white hover:underline">Canlı Destek</p>
-                <p className="hover:text-white hover:underline">
-                  Yardım Merkezi
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Roobet Resmi İkiz Siteleri
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Roo Sorumluluğu
-                </p>
-                <p className="hover:text-white hover:underline">
-                  Güvenlik Açığı İfşası
-                </p>
-              </div>
-            }
-          />
-          <FooterAccordion
-            heading="topluluk"
-            content={
-              <div className="flex flex-col gap-6 py-4">
-                <div className="flex items-center gap-4">
-                  <FaTwitter className="w-9 h-9 text-[#9595b4]" />
-                  <FaFacebook className="w-9 h-9 text-[#9595b4]" />
-                  <FaInstagram className="w-9 h-9 text-[#9595b4]" />
-                </div>
-                <div className="flex items-center gap-4">
-                  <FaTwitch className="w-9 h-9 text-[#9595b4]" />
-                  <FaTelegram className="w-9 h-9 text-[#9595b4]" />
-                  <FaSpotify className="w-9 h-9 text-[#9595b4]" />
-                </div>
-              </div>
-            }
-          />
+          <FooterAccordion headings={headings} contents={contents} />
         </div>
         <Footer />
       </div>

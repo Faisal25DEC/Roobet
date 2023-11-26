@@ -42,11 +42,9 @@ const Table = () => {
             <div>
               <p className={`${index === 0 && "font-bold"} `}>{item[0]}</p>
             </div>
-            <div className="hidden md:flex">
+            <div className="hidden md:flex md:justify-center lg:block">
               <p
-                className={`text-center md:text-left ${
-                  index === 0 && "font-bold"
-                } ${index === 0 && "ml-[1rem]"} ${
+                className={`  ${index === 0 && "font-bold"} ${
                   item[1] === "Hidden" && "text-neutral-400"
                 } `}
               >
@@ -63,11 +61,7 @@ const Table = () => {
               </p>
             </div>
             <div className="hidden gap-2 items-center lg:flex">
-              <p
-                className={`${index === 0 && "font-bold"} ${
-                  index === 0 && "ml-[1rem]"
-                }`}
-              >
+              <p className={`${index === 0 && "font-bold"}`}>
                 {item[3].split(" ")[0]}
               </p>
               {index !== 0 && (
@@ -75,13 +69,7 @@ const Table = () => {
               )}
             </div>
             <div className="hidden lg:flex">
-              <p
-                className={`${index === 0 && "font-bold"} ${
-                  index === 0 && "ml-[1rem]"
-                }`}
-              >
-                {item[4]}
-              </p>
+              <p className={`${index === 0 && "font-bold"} `}>{item[4]}</p>
             </div>
             <div className="flex gap-1">
               <p

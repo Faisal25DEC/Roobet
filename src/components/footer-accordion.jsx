@@ -17,20 +17,24 @@ function CustomToggle({ children, eventKey }) {
   );
 }
 
-function FooterAccordion({ heading, content }) {
+function FooterAccordion({ headings, contents }) {
   return (
     <div className="bg-[#1f1f1f] ">
       <Accordion defaultActiveKey="0">
-        <Card>
-          <Card.Header>
-            <CustomToggle eventKey="0">
-              {heading} <RiArrowDropDownLine className="text-[24px]" />
-            </CustomToggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="0">
-            <Card.Body>{content} </Card.Body>
-          </Accordion.Collapse>
-        </Card>
+        {headings.map((heading, idx) => {
+          return (
+            <Card>
+              <Card.Header>
+                <CustomToggle eventKey={idx}>
+                  {heading} <RiArrowDropDownLine className="text-[24px]" />
+                </CustomToggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey={idx}>
+                <Card.Body>{contents[idx]} </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+          );
+        })}
       </Accordion>
     </div>
   );
