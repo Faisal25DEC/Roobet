@@ -1,3 +1,4 @@
+import "./footer.css";
 import React from "react";
 import {
   FaFacebook,
@@ -219,7 +220,7 @@ const Footer = () => {
         </div>
 
         <hr className="border-[1px] border-[#2d2d4f]" />
-        <div className="w-full flex justify-between items-start">
+        <div className="footer-awards w-full flex justify-between items-start">
           <div className="flex-1.75">
             <h1 className="text-white font-semibold p-6">Ödüller</h1>
             <div className="flex items-center gap-4 flex-wrap">
@@ -233,7 +234,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-center text-white p-6 font-semibold">
+            <h1 className="text-center text-white   p-6 font-semibold">
               Lisanslar
             </h1>
             <div className="flex items-center gap-4 flex-wrap justify-center">

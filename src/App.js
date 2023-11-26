@@ -90,7 +90,7 @@ function App() {
   ];
   return (
     <>
-      <div className="overlay-bg h-[140vh] absolute w-full "></div>
+      <div className="overlay-bg h-[145vh] absolute w-full "></div>
       <div className="top-bg bg-image w-[100%] m-auto ">
         <Navbar />
 
