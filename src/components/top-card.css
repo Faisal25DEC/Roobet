@@ -97,9 +97,9 @@
   background-size: 30rem;
   background-repeat: no-repeat;
   width: 100%;
-  background-size: 70%;
+  background-size: 90%;
   background-position-y: 0rem;
-  background-position-x: 0rem;
+  background-position-x: -5rem;
 
   z-index: 8;
   transition: all 0.5s ease-in-out;
@@ -108,7 +108,7 @@
 .card-6 {
   background: linear-gradient(180deg, #7171e8, #5353e1);
   background-image: url("../assets/card-5.png");
-  background-size: 15%;
+  background-size: 25%;
   background-repeat: no-repeat;
   width: 100%;
 
@@ -140,8 +140,8 @@
   background-repeat: no-repeat;
   width: 100%;
   background-size: 30%;
-  background-position-y: -5rem;
-  background-position-x: right;
+  background-position-y: -3rem;
+  background-position-x: 80%;
   z-index: 4;
   transition: all 0.5s ease-in-out;
   overflow: hidden;

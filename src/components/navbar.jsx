@@ -41,10 +41,10 @@ const Navbar = () => {
             <p className="hidden md:block text-white font-semibold text-[0.875rem]">
               Ara
             </p>
-            <button className="text-[#e6be4b] border-[#e6be4b] border-[1px] px-5 py-2 rounded-[7px] hover:border-[#eecf71] hover:bg-[#eecf71] hover:bg-opacity-5 tansition font-[.875rem]">
+            <button className="text-[#e6be4b] border-[#e6be4b] border-[1px] px-[1rem] py-2 rounded-[7px] hover:border-[#eecf71] hover:bg-[#eecf71] hover:bg-opacity-5 tansition font-[.875rem]">
               Giriş
             </button>
-            <button className="px-5 py-2 bg-[#e6be4b] rounded-[7px] text-black font-[.875rem]">
+            <button className="px-[1rem] py-2 bg-[#e6be4b] rounded-[7px] text-black font-[.875rem]">
               Kayıt{" "}
             </button>
           </div>

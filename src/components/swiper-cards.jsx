@@ -70,7 +70,7 @@ export default function SwiperCards({
               }}
               breakpoints={{
                 0: {
-                  slidesPerView: 1.5,
+                  slidesPerView: 2.2,
                   slidesPerGroup: 2,
                   delay: 1000,
                   spaceBetween: 10,
@@ -82,18 +82,24 @@ export default function SwiperCards({
                   spaceBetween: 10,
                 },
                 640: {
-                  slidesPerView: 3.1,
+                  slidesPerView: 3.2,
                   slidesPerGroup: 3,
                   delay: 1000,
                   spaceBetween: 20,
                 },
                 768: {
-                  slidesPerView: 3.4,
+                  slidesPerView: 4.1,
                   slidesPerGroup: 3,
                   delay: 1000,
                   spaceBetween: 10,
                 },
                 1024: {
+                  slidesPerView: 4.6,
+                  slidesPerGroup: 5,
+                  delay: 1000,
+                  spaceBetween: 20,
+                },
+                1236: {
                   slidesPerView: 6.6,
                   slidesPerGroup: 5,
                   delay: 1000,
@@ -138,7 +144,7 @@ export default function SwiperCards({
                   </SwiperSlide>
                 ) : (
                   <SwiperSlide>
-                    <div className="mb-2 w-[9rem] h-[6rem] bg-[#221f41]  overflow-hidden flex items-center justify-center rounded-[1rem] swiper-shadow hover:bg-[#0a0a15b1] transition duration-500 cursor-pointer">
+                    <div className="mb-2 w-[9rem] h-[6rem] bg-[#221f41]  overflow-hidden flex items-center justify-center rounded-[1rem]  hover:bg-[#0a0a15b1] transition duration-500 cursor-pointer">
                       <img
                         src={product.img}
                         alt=""

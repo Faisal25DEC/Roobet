@@ -107,7 +107,7 @@ const Footer = () => {
     <>
       <div className="py-6 px-6 w-full text-white lg:w-[75%] m-auto">
         <hr className="border-[1px] border-[#2d2d4f]" />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-white py-6 gap-8 cursor-pointer">
+        <div className="hidden md:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-white py-6 gap-8 cursor-pointer">
           <div className="flex-2">
             <h1 className="font-semibold">Casino</h1>
             <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
