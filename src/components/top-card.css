@@ -342,6 +342,16 @@
   }
 }
 @media (max-width: 560px) {
+  .card-3 {
+    background-position: bottom;
+    background-size: 250%;
+  }
+  .card-2:hover ~ .card-3 {
+    filter: brightness(1);
+    scale: 1;
+    filter: blur(0px);
+    background-size: 230%;
+  }
   .card-9 {
     background-size: 90%;
   }

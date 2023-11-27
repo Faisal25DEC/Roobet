@@ -145,7 +145,7 @@ function App() {
       </div>
 
       <div className="relative footer-bg">
-        <div className="footer-bg block md:hidden">
+        <div className="footer-bg block sc560:hidden">
           <FooterAccordion headings={headings} contents={contents} />
         </div>
         <Footer />

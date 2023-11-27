@@ -108,10 +108,10 @@ const Footer = () => {
     <>
       <div className="py-6 px-6 w-full text-white lg:w-[75%] m-auto">
         <hr className="border-[1px] border-[#2d2d4f]" />
-        <div className="hidden md:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-white py-6 gap-8 cursor-pointer">
+        <div className="hidden sc560:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-white py-6 gap-8 cursor-pointer">
           <div className="flex-2">
             <h1 className="font-semibold">Casino</h1>
-            <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
+            <div className="text-[#7b6fbc] flex flex-col gap-[2px] pt-2">
               <p className="hover:text-white hover:underline">
                 Roobet Oyunları
               </p>
@@ -127,7 +127,7 @@ const Footer = () => {
           </div>
           <div className="flex-2">
             <h1 className="font-semibold">Spor Bahisleri Politikası</h1>
-            <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
+            <div className="text-[#7b6fbc] flex flex-col gap-[2px] pt-2">
               <p className="hover:text-white hover:underline">ana Sayfa</p>
               <p className="hover:text-white hover:underline">Canlı</p>
               <p className="hover:text-white hover:underline">Futbol</p>
@@ -137,7 +137,7 @@ const Footer = () => {
           </div>
           <div className="flex-2">
             <h1 className="font-semibold">Policies</h1>
-            <div className="text-[#7b6fbc] flex flex-col gap-[2px]">
+            <div className="text-[#7b6fbc] flex flex-col gap-[2px] pt-2">
               <p className="hover:text-white hover:underline">
                 Kullanım Şartları
               </p>
@@ -161,7 +161,7 @@ const Footer = () => {
           </div>
           <div className="flex-2">
             <h1 className="font-semibold">Promos</h1>
-            <div className="text-[#7b6fbc] flex py-2 flex-col gap-1">
+            <div className="text-[#7b6fbc] flex py-2 flex-col gap-1 pt-2">
               <p className="hover:text-white hover:underline">VIP Kulübü</p>
               <p className="hover:text-white hover:underline">Promosyonlar</p>
               <p className="hover:text-white hover:underline">
@@ -174,7 +174,7 @@ const Footer = () => {
           </div>
           <div className="flex-2">
             <h1 className="font-semibold">support</h1>
-            <div className="text-[#7b6fbc] flex py-2 flex-col gap-1">
+            <div className="text-[#7b6fbc] flex py-2 flex-col gap-1 pt-2">
               <p className="hover:text-white hover:underline">Hakkımızda</p>
               <p className="hover:text-white hover:underline">Canlı Destek</p>
               <p className="hover:text-white hover:underline">Yardım Merkezi</p>
@@ -191,7 +191,7 @@ const Footer = () => {
           </div>
           <div className="flex-2">
             <h1 className="font-semibold">topluluk</h1>
-            <div className="flex flex-col gap-6 py-4">
+            <div className="flex flex-col gap-6 py-4 pt-2">
               <div className="flex items-center gap-4">
                 <FaTwitter className="w-9 h-9 text-[#9595b4]" />
                 <FaFacebook className="w-9 h-9 text-[#9595b4]" />
