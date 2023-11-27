@@ -234,13 +234,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-center text-white   p-6 font-semibold">
+            <h1 className="sm:text-center text-white maxSc360:text-left maxSc360:p-6  p-6 font-semibold">
               Lisanslar
             </h1>
-            <div className="flex items-center gap-4 flex-wrap justify-center">
+            <div className="flex items-center gap-4 flex-wrap justify-center maxSc360:justify-start">
               {footerAwardsRight.map((item) => {
                 return (
-                  <div className="w-32 h-24 flex justify-center items-center bg-[#23233d] rounded-lg hover:bg-[#2d2d4f] cursor-pointer">
+                  <div className="w-32 h-24   flex justify-center items-center bg-[#23233d] rounded-lg hover:bg-[#2d2d4f] cursor-pointer">
                     <img src={item.img} alt="" />
                   </div>
                 );

@@ -12,7 +12,7 @@ const TopBanner = () => {
       <img
         src={TopBannerImage}
         alt=""
-        className=" w-full rounded-xl h-[37.5vh] object-cover"
+        className=" w-full rounded-xl h-[39vh] md:h-[37.5vh] object-cover"
       />
       <div className="relative">
         <img
@@ -23,16 +23,16 @@ const TopBanner = () => {
         <img
           src={Cards}
           alt=""
-          className="aboslute hidden lg:block right-[-0.4rem] top-[-4vh] w-[12rem] h-[24.5vh] absolute"
+          className="aboslute hidden lg:block md1200:right-[-0.4rem] md1024:right-[-1rem] top-[-4vh] w-[12rem] h-[24.5vh] absolute"
         />
       </div>
       <div className="relative block lg:hidden">
         <img
           src={MobileBanner1}
           alt=""
-          className=" block lg:hidden h-[23vh] w-full mt-[1rem] rounded-lg"
+          className=" block lg:hidden h-[21vh] w-full mt-[1rem] rounded-lg"
         />
-        <h1 className="text-center text-[18px] md:text-[24px] w-full font-bold text-white absolute top-[50%] z-[50] left-[50%] translate-x-[-50%] translate-y-[-100%]">
+        <h1 className="text-center maxSc360:text-[17px] text-[20px] md:text-[24px] w-full font-bold text-white absolute top-[50%] z-[50] left-[50%] translate-x-[-50%] translate-y-[-100%] maxSc360:translate-y-[-120%]">
           Roo's $100,000 No Limit November{" "}
           <p className="text-[14px] md:text-[18px] font-bold text-[#c4c4c4]">
             Kazananlar belirlenecek 11/27 04:59AM UTC
@@ -40,10 +40,10 @@ const TopBanner = () => {
         </h1>
         <div className="absolute left-3 bottom-2 flex gap-2 w-[97%] m-auto text-white">
           {" "}
-          <button className="rounded-lg bg-[#60af5a] w-[50%] p-2">
+          <button className="rounded-lg bg-[#60af5a] w-[50%] p-1 maxSc360:p-0">
             100 <p>Kazananlar</p>
           </button>
-          <button className="rounded-lg w-[50%] p-2 bg-[#2196f3]">
+          <button className="rounded-lg w-[50%] p-1 bg-[#2196f3] maxSc360:p-0">
             200 <p>Biletleriniz</p>
           </button>
         </div>

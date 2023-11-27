@@ -6,9 +6,9 @@ import MobileLogo from "../assets/mobileLogo.png";
 
 const Navbar = () => {
   return (
-    <div className="z-[99999] bg-[#302a58] bg-opacity-95 w-full fixed h-14 md:h-24 border-b-[1px] border-b-[#373078]">
+    <div className="z-[99999] bg-[#302a58] bg-opacity-95 w-full fixed h-18 md1024:h-[6rem] border-b-[1px] border-b-[#584b75]">
       <div className="bg-[#3f3a75] w-full">
-        <div className="hidden lg:flex w-[77%] m-auto h-8 text-center   text-white  items-center justify-between ">
+        <div className="hidden md:flex w-[77%] md:w-[97%] lg:w-[77%] m-auto h-8 text-center   text-white  items-center justify-between ">
           <div className="flex items-center gap-2 font-[400] text-[0.8125rem]">
             <p>Promosyonlar</p>
             <p>Harberler</p>

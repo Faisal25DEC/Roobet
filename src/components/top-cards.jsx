@@ -7,13 +7,14 @@ const TopCards = () => {
       {/* First main div */}
       <div className="relative h-[160px] top-card border-none">
         <div className="absolute w-full h-full card-1">
-          <h1 className="text-shadow text-white text-[30px] font-[600] absolute bottom-2 left-8">
+          <h1 className="text-shadow text-white text-[30px] font-[600] absolute bottom-2 left-8 ">
             Slotlar
           </h1>
         </div>
         <div className="absolute w-full h-full card-2"></div>
         <div className="absolute w-full h-full card-3"></div>
         <div className="absolute w-full h-full card-4"></div>
+        <div className="absolute w-full h-full card-1-1"></div>
       </div>
 
       {/* Second main div */}
@@ -35,6 +36,7 @@ const TopCards = () => {
             Spor Bahisleri
           </h1>
         </div>
+        <div className="absolute w-full h-full card-9-1"></div>
         <div className="absolute w-full h-full card-10"></div>
         <div className="absolute w-full h-full card-11"></div>
         <div className="absolute w-full h-full card-12"></div>

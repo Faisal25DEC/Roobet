@@ -27,13 +27,13 @@ export default function SwiperCards({
   const [prevButtonDisabled, setPrevButtonDisabled] = useState(true);
   console.log(nextButtonDisabled);
   return (
-    <div className="text-center text-white font-semibold text-[24px] h-[40vh]">
+    <div className="text-center text-white font-semibold text-[24px] maxSc360:h-[45vh] sm:h-[40vh] ">
       <div className="container-box" id={`${heading}`}>
         <div className="">
-          <div className="flex items-center justify-between py-6">
-            <span className=" cursor-pointer font-semibold text-3xl text-left flex items-center gap-4">
+          <div className="flex items-center justify-between pt-6">
+            <span className=" cursor-pointer font-semibold text-3xl text-left flex items-end gap-2 md:gap-4">
               {heading}{" "}
-              <span className="text-sm underline cursor-pointer text-gray-500">
+              <span className="text-sm underline cursor-pointer text-gray-500 pb-1">
                 {subHeading}
               </span>
             </span>
@@ -60,7 +60,7 @@ export default function SwiperCards({
               </button>
             </div>
           </div>
-          <div id={`${heading}`} className="py-4">
+          <div id={`${heading}`} className="py-8">
             <Swiper
               id={swiperId}
               modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
@@ -70,7 +70,7 @@ export default function SwiperCards({
               }}
               breakpoints={{
                 0: {
-                  slidesPerView: 2.2,
+                  slidesPerView: 1.8,
                   slidesPerGroup: 2,
                   delay: 1000,
                   spaceBetween: 10,

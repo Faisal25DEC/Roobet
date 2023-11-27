@@ -94,7 +94,7 @@ function App() {
       <div className="top-bg bg-image w-[100%] m-auto ">
         <Navbar />
 
-        <div className=" relative pt-[15vh] h-[fit-content]  w-[97%] lg:w-[77.5%] m-auto ">
+        <div className=" relative pt-[10vh] md:pt-[15vh] h-[fit-content]  w-[97%] lg:w-[77.5%] m-auto ">
           <TopBanner />
           <TopCards />
         </div>
