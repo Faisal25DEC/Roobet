@@ -8,7 +8,7 @@ import MobileBanner1 from "../assets/tb-3-1.jpeg";
 
 const TopBanner = () => {
   return (
-    <div className="img-shadow h-[67vh] lg:h-[63vh]">
+    <div className="img-shadow h-[67vh] lg:h-[63vh] relative">
       <img
         src={TopBannerImage}
         alt=""
@@ -23,7 +23,7 @@ const TopBanner = () => {
         <img
           src={Cards}
           alt=""
-          className="aboslute hidden lg:block md1200:right-[-0.4rem] md1024:right-[-1rem] top-[-4vh] w-[12rem] h-[24.5vh] absolute"
+          className="aboslute hidden object-contain lg:block  md1024:right-[-1rem] top-[-2.25rem] w-[16rem] h-fit absolute"
         />
       </div>
       <div className="relative block lg:hidden">
